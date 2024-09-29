@@ -1,0 +1,99 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #9dc591;
+
+}
+
+.dashboard-title {
+    font-size: 2rem;
+    color: #000000;
+    text-align: center;
+}
+
+.available-food {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.food-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.food-card {
+    position: relative; /* Required for the pseudo-element positioning */
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    overflow: hidden; /* Ensure the pseudo-element stays within the card */
+}
+
+/* Pseudo-element for semi-transparent overlay */
+.food-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency */
+    z-index: 1;
+    border-radius: 10px;
+}
+
+/* Specific backgrounds for each food card */
+.food-card:nth-child(1) {
+    background-image: url('C:/Users/parth/Downloads/ReServe-It_Food_App/frontend/reserve-it_frontend/images/1.jpg');
+}
+
+.food-card:nth-child(2) {
+    background-image: url('C:/Users/parth/Downloads/ReServe-It_Food_App/frontend/reserve-it_frontend/images/2.jpg');
+}
+
+.food-card:nth-child(3) {
+    background-image: url('C:/Users/parth/Downloads/ReServe-It_Food_App/frontend/reserve-it_frontend/images/3.jpg');
+}
+
+.food-card:nth-child(4) {
+    background-image: url('C:/Users/parth/Downloads/ReServe-It_Food_App/frontend/reserve-it_frontend/images/4.jpg');
+}
+
+.food-card:nth-child(5) {
+    background-image: url('C:/Users/parth/Downloads/ReServe-It_Food_App/frontend/reserve-it_frontend/images/5.jpg');
+}
+
+.food-card:nth-child(6) {
+    background-image: url('C:/Users/parth/Downloads/ReServe-It_Food_App/frontend/reserve-it_frontend/images/6.jpg');
+}
+
+.food-card:nth-child(7) {
+    background-image: url('C:/Users/parth/Downloads/ReServe-It_Food_App/frontend/reserve-it_frontend/images/7.jpg');
+}
+
+.food-card:nth-child(8) {
+    background-image: url('C:/Users/parth/Downloads/ReServe-It_Food_App/frontend/reserve-it_frontend/images/8.jpg');
+}
+
+/* Ensure the text stays on top of the overlay */
+.food-card h4, .food-card p {
+    position: relative;
+    z-index: 2;
+}
+
+.food-card h4 {
+    font-size: 1.2rem;
+    color: #fff; /* Change text color for better contrast */
+}
+
+.food-card p {
+    font-size: 1rem;
+    color: #ecf0f1; /* Adjusted for better readability */
+}

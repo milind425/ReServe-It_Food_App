@@ -1,0 +1,102 @@
+.home-container {
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .hero-section {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    color: #2c3e50;
+  }
+  
+  .hero-subtitle {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    color: #7f8c8d;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .primary-btn {
+    background-color: #27ae60;
+    color: white;
+  }
+  
+  .secondary-btn {
+    background-color: #2980b9;
+    color: white;
+  }
+  
+  .restaurants-section {
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    color: #34495e;
+    margin-bottom: 20px;
+  }
+  
+  .restaurant-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .restaurant-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+  }
+  
+  .restaurant-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  .restaurant-name {
+    font-size: 1.5rem;
+    color: #2c3e50;
+  }
+  
+  .restaurant-description {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+  }
+  
+  .reserve-btn {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
